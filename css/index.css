@@ -24,6 +24,8 @@ header nav ul li {
 
 header nav ul li a:hover {
     text-decoration: underline;
+    background: #ffe6ff;
+    padding: 5px;
 }
 
 header nav ul li:first-child {
@@ -85,6 +87,39 @@ header nav ul li:first-child {
 .lang-tech .lang {
     display: flex;
 }
+
+.edu-job h2 {
+    margin-left: 20px;
+    color: #F78AFA;
+}
+
+.edu-job .edu {
+    display: flex;
+}
+
+.edu-job .edu img {
+    max-height: 200px;
+    
+}
+.hob h2 {
+    margin-left: 20px;
+    color: #F78AFA;
+}
+.post h2 {
+    margin-left: 20px;
+    color: #F78AFA;
+}
+
+.l h2 {
+    margin-left: 20px;
+    color: #F78AFA;
+}
+
+.cont h2 {
+    margin-left: 20px;
+    color: #F78AFA;
+}
+
 
 .list {
     margin: 0 5px;
