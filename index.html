@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CV-Desktop</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>CV-Marta</title>
 </head>
 
 <body>
@@ -21,38 +22,47 @@
                 <li><a href="#contacts">CONTACTS</a></li>
             </ul>
         </nav>
-        <img src="images/avatar.jpg" alt="avatar" width=340>
-        <img src="images/background.jpg" alt="background" width=900 height=500>
-        <h1>Hi! I'm Marta Stakhiv</h1>
-        <h2>Project Administrator</h2>
+        <div class="banner">
+            <img src="images/avatar.jpg" alt="Marta Stakhiv" class="shadow">
+            <div>
+                <h1>Hi! I'm Marta Stakhiv</h1>
+                <p id="position"><b>Project Administrator</b></p>
+            </div>
+        </div>
     </header>
     <main>
-        <section>
+        <section class="about">
             <h2 id="home">ABOUT</h2>
             <p>3 years ago, I’ve decided to combine my scientific experience with more practical activities and added work at IT company SoftServe. I started to work at the position of Project Administrator.<br> I have 11 years’ experience at the Information
                 Security Department of Lviv Polytechnic National University: conduct lectures, practices and laboratory courses. <br> I have methodical and rigorous approach to achieving tasks and objectives, use initiative to meet and resolve challenges,
                 can handle and analyze large amounts of information. <br> My aim is to have some practice in developing.</p>
         </section>
-        <section>
+        <section class="lang-tech">
             <h2 id="skills">SKILLS</h2>
-            <div><img src="images/languages.png" alt="languages"></div>
-            <div><img src="images/skills.png" alt="skills"></div>
-            <section>
-                <h3>Languages</h3>
-                <div>
-                    <p>Ukrainian</p>
-                    <p>English</p>
-                    <p>Polish</p>
-                    <p>Russian</p>
-                </div>
-                <h3>Technologies</h3>
-                <div>
-                    <p>MS Office application</p>
-                    <p>MathCad</p>
-                    <p>Proteus</p>
-                    <p>Xilinx</p>
-                </div>
-            </section>
+            <div class="lang">
+                <img src="images/languages.png" alt="languages">
+                <article>
+                    <h3>Languages</h3>
+                    <div>
+                        <p>Ukrainian</p>
+                        <p>English</p>
+                        <p>Polish</p>
+                        <p>Russian</p>
+                    </div>
+                </article>
+            </div>
+            <div class="lang">
+                <img src="images/skills.png" alt="skills">
+                <article>
+                    <h3>Technologies</h3>
+                    <div>
+                        <p>MS Office application</p>
+                        <p>MathCad</p>
+                        <p>Proteus</p>
+                        <p>Xilinx</p>
+                    </div>
+                </article>
+            </div>
         </section>
         <section>
             <h2 id="education&jobs">EDUCATION & JOBS</h2>
@@ -81,11 +91,13 @@
             <h3>Music</h3>
         </section>
         <section>
-            <h2 id="latest-posts">LATEST POSTS</h2>
-            <iframe src="https://www.youtube.com/embed/watch?v=2mlZFar2iLA"></iframe>
-            <iframe src="https://www.youtube.com/embed/watch?v=2SPfF0JbFb8"></iframe>
-            <iframe src="https://www.youtube.com/embed/watch?v=O0MxUsds6eI"></iframe>
-            <iframe src="https://www.youtube.com/embed/watch?v=L6uovlO_yVM"></iframe>
+            <h2 class="latest-posts">LATEST POSTS</h2>
+            <div class="list">
+                <iframe src="https://www.youtube.com/embed/2mlZFar2iLA" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/2SPfF0JbFb8" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/O0MxUsds6eI" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/L6uovlO_yVM" allowfullscreen></iframe>
+            </div>    
         </section>
         <section>
             <h2 id="links">LINKS</h2>
@@ -110,8 +122,8 @@
                 <input type="submit" value="SEND"><input type="reset" value="RESET">
             </form>
         </section>
-        <footer>
-            <h6>Marta Stakhiv</h6>
+        <footer id="contacts">
+            <p id="marta">Marta Stakhiv</p>
             <p>Mobile: +38 (066) 123-45-67   |   <a href="marta@gmail.com">Email: marta@gmail.com</a></p>
             <div>
                 <a href="https://www.facebook.com/mstakhiv"><img src="images/facebook.jpg" alt="facebook" width=70></a>
