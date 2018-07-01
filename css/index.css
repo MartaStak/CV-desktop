@@ -14,18 +14,20 @@ header nav ul {
     display:flex;
     flex: 1;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 header nav ul li {
     list-style-type: none;
     margin-right: 5%;
     color: #F78AFA;
+    
 }
 
 header nav ul li a:hover {
     text-decoration: underline;
     background: #ffe6ff;
-    padding: 5px;
+    
 }
 
 header nav ul li:first-child {
@@ -45,10 +47,11 @@ header nav ul li:first-child {
     box-shadow: 1px 15px 35px 1px;
 }
 
-.banner div {
+.banner #name-pos {
     align-items: center;
     justify-content: center;
     max-width: 340px;
+    margin: auto;
 }
 
 .banner div h1 {
@@ -64,7 +67,6 @@ header nav ul li:first-child {
     display: flex;
     justify-content: center;
     max-width: 340px;
-    color: white;
 }
 
 .about h2 {
@@ -110,7 +112,7 @@ header nav ul li:first-child {
     color: #F78AFA;
 }
 
-.l h2 {
+.link h2 {
     margin-left: 20px;
     color: #F78AFA;
 }

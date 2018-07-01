@@ -24,7 +24,7 @@
         </nav>
         <div class="banner">
             <img src="images/avatar.jpg" alt="Marta Stakhiv" class="shadow">
-            <div>
+            <div id="name-pos">
                 <h1>Hi! I'm Marta Stakhiv</h1>
                 <p id="position"><b>Project Administrator</b></p>
             </div>
@@ -127,7 +127,7 @@
                 <iframe src="https://www.youtube.com/embed/L6uovlO_yVM" allowfullscreen></iframe>
             </div>    
         </section>
-        <section class="l">
+        <section class="link">
             <h2 id="links">LINKS</h2>
             <img src="images/facebook.jpg" alt="facebook" width=70>
             <a href="https://www.facebook.com/mstakhiv">Facebook</a>
@@ -137,16 +137,18 @@
             <a href="https://www.instagram.com/mstakhiv">Instagram</a>
         </section>
         <section class="cont">
-            <h2 id="conacts">CONTACTS</h2>
-            <p id="contact">I'd love to hear from you</p>
+            <h2 id="contacts">CONTACTS</h2>
+            <!--<p id="contact">I'd love to hear from you</p>-->
             <form method="POST" action="https://formspree.io/martast75@gmail.com">
-                <label for="name">Name:</label> 
-                <input type="text" name="name" id="name" placeholder="Name" required> 
-                <br><br>
-                <label>Email:<input type="email" name="email" placeholder="Email" required></label>
-                <br><br>
-                <label>Message:<input type="text" name="message" placeholder="Message" required></label>
-                <br><br>
+                <fieldset>
+                    <legend>I'd love to hear from you</legend>
+                    <label for="name"> Name:<input type="text" name="name" id="name" placeholder="Name" required></label>
+                    <br><br>
+                    <label> Email:<input type="email" name="email" placeholder="Email" required></label>
+                    <br><br>
+                    <label> Message:<input type="text" name="message" placeholder="Message" required></label>
+                    <br><br>
+                </fieldset>
                 <input type="submit" value="SEND"><input type="reset" value="RESET">
             </form>
         </section>
